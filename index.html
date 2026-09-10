@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow-up Planner</title>
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body>
+    <header>
+        <h1> Glow-Up Planner🌟</h1>
+        <p>Become your best self, one day at a time</p>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+     <main>
+    <section class="greeting">
+        <h2>Good morning, girlie! 💕</h2>
+        <p>Let's make today a good one.</p>
+        </section>
+        <section class="mood">
+               <h2>How are you feeling today?</h2>
+               <button id="sad">😭</button>
+               <button id="stress">😔</button>
+               <button id="normal">😐</button>
+               <button id="happy">🙂</button>
+               <button id="excited">😍</button>
+               <div id="mood-display"></div>
+        </section>
+        <section class="habits">
+            <h2>Today's Goals</h2>
+            <input type="text" id="habits" placeholder="Add a habit..">
+            <button id="addhabit">+</button>
+            <div class="container">
+                <ul id="habit-list">
+                    <li><label><input type="checkbox">Drink water 💧</label></li>
+                    <li><label><input type="checkbox">Study JavaScript 💻</label></li>
+                    <li><label><input type="checkbox">Read 10 pages 📖</label></li>
+                    <li><label><input type="checkbox">Exercise 🏃‍♀️</label></li>
+                    <li><label><input type="checkbox">Sleep before 11 🌙</label></li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="progress">
+            <h2>Today's Progress</h2>
+            <progress value="0" max="100">0%</progress>
+            <p id="percentage">0%</p>
+        </section>
+        <section class="affirmation">
+            <h2>Today's Affirmation</h2>
+            <p>You don't have to be perfect to be proud of yourself. 💗</p>
+            <button id="btn">New Affirmation</button>
+        </section>
+        <footer>
+            <p>Made with 💗 for your glow-up journey.</p>
+        </footer>
+    </main>
+    <script src="action.js"></script>
+</body>
+</html>
